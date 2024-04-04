@@ -1,11 +1,12 @@
 
 class Ner:
-    """класс для выделения сущностей"""
+    """ ner classification class"""
     def __init__(self, llist, rlist):
         self.llist = llist
         self.rlist = rlist
 
     def binarysearch(self, xlist, item):
+        """ binary search """
         self.xlist = xlist
         self.item = item
         low:int = 0
@@ -21,7 +22,7 @@ class Ner:
         return False
 
     def load(self, text):
-        """выделение сущностей"""
+        """ ner method """
         self.text = text
         tlist = []
         slist = []
