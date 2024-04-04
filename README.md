@@ -1,4 +1,4 @@
 # nlu
 
-ner (ru)
+ner - location, date, company, names (ru)
 
